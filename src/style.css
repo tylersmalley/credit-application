@@ -1,0 +1,91 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+form fieldset {
+  border: none;
+  margin: 0 0 0.5rem 0;
+}
+
+form fieldset.warning {
+  color: #d9534f;
+}
+
+form fieldset.warning input {
+  border-color: #d9534f;
+}
+
+form fieldset small {
+  font-size: 80%;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: .25rem; 
+  box-sizing: border-box;
+  color: #55595c;
+  display: block;
+  padding: .25rem .5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+form button {
+  display: inline-block;
+  padding: .375rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  background-color: #4694D8;
+  color: white;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#test #results {
+  padding: 0.1em 1em;
+  font-size: 0.9rem;
+}
+
+#test #results li {
+  color: green;
+  list-style-type: none;
+}
+
+#test #results li span.value {
+  color: grey;
+}
+
+#test #results li.test-fail {
+  color: red;
+}
+
+#test header {
+  background-color: grey;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.2em;
+}
+
+#test #app {
+  display: none;
+}
